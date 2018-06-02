@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E537A4E920C1BE8F0052F95E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E537A4E820C1BE8F0052F95E /* AppDelegate.swift */; };
 		E537A4EB20C1BE8F0052F95E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E537A4EA20C1BE8F0052F95E /* ViewController.swift */; };
-		E537A4EE20C1BE8F0052F95E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E537A4EC20C1BE8F0052F95E /* Main.storyboard */; };
+		E537A4EE20C1BE8F0052F95E /* Florists.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E537A4EC20C1BE8F0052F95E /* Florists.storyboard */; };
 		E537A4F020C1BE910052F95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E537A4EF20C1BE910052F95E /* Assets.xcassets */; };
 		E537A4F320C1BE910052F95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E537A4F120C1BE910052F95E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +18,7 @@
 		E537A4E520C1BE8F0052F95E /* Florists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Florists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E537A4E820C1BE8F0052F95E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E537A4EA20C1BE8F0052F95E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E537A4ED20C1BE8F0052F95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E537A4ED20C1BE8F0052F95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Florists.storyboard; sourceTree = "<group>"; };
 		E537A4EF20C1BE910052F95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E537A4F220C1BE910052F95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E537A4F420C1BE910052F95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			children = (
 				E537A4E820C1BE8F0052F95E /* AppDelegate.swift */,
 				E537A4EA20C1BE8F0052F95E /* ViewController.swift */,
-				E537A4EC20C1BE8F0052F95E /* Main.storyboard */,
+				E537A4EC20C1BE8F0052F95E /* Florists.storyboard */,
 				E537A4EF20C1BE910052F95E /* Assets.xcassets */,
 				E537A4F120C1BE910052F95E /* LaunchScreen.storyboard */,
 				E537A4F420C1BE910052F95E /* Info.plist */,
@@ -124,7 +124,7 @@
 			files = (
 				E537A4F320C1BE910052F95E /* LaunchScreen.storyboard in Resources */,
 				E537A4F020C1BE910052F95E /* Assets.xcassets in Resources */,
-				E537A4EE20C1BE8F0052F95E /* Main.storyboard in Resources */,
+				E537A4EE20C1BE8F0052F95E /* Florists.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,12 +143,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E537A4EC20C1BE8F0052F95E /* Main.storyboard */ = {
+		E537A4EC20C1BE8F0052F95E /* Florists.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E537A4ED20C1BE8F0052F95E /* Base */,
 			);
-			name = Main.storyboard;
+			name = Florists.storyboard;
 			sourceTree = "<group>";
 		};
 		E537A4F120C1BE910052F95E /* LaunchScreen.storyboard */ = {
